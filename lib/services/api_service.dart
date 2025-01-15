@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  final String baseUrl = "http://127.0.0.1:8000/itens"; // URL da API
+  final String baseUrl = "http://127.0.0.1:8000/"; // URL da API
 
   // Método para obter itens
   Future<List<Map<String, dynamic>>> fetchItems() async {
